@@ -1,0 +1,35 @@
+name: 헤드웨어 시장조사 자동 업데이트 (AI 미사용)
+on:
+  workflow_dispatch:
+  schedule:
+    # 00:17 UTC = 09:17 Korea Standard Time
+    - cron: '17 0 * * *'
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 허용된 상품정보 수집 (AI 호출 없음)
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python scripts/update_data.py
+      - name: 변경된 수집 결과 저장
+        run: |
+          if git diff --quiet -- docs/data/market.json; then
+            echo "새롭게 수집된 자료 없음"
+            exit 0
+          fi
+          git config user.name "market-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/market.json
+          git commit -m "data: update headwear observations"
+          git push
