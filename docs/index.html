@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#18221d"/>
+<meta name="description" content="시장조사, 프로젝트, 상품·프로모션, 콘텐츠와 일정을 함께 관리하는 한국어 업무공간"/>
+<title>워크룸 | 통합 업무공간</title>
+<link rel="stylesheet" href="./workspace.css"/>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brandmark">W</div><div><strong>워크룸</strong><small>나의 업무공간</small></div></div>
+    <div class="workspace-selector"><span class="workspace-avatar">M</span><div><b>개인 워크스페이스</b><small>기본 작업 공간</small></div><span class="arr">⌄</span></div>
+    <div class="nav-label">전체</div>
+    <nav id="navMain" aria-label="주 메뉴">
+      <button type="button" data-page="dashboard" class="selected"><span class="ico">▦</span>전체 현황</button>
+      <button type="button" data-page="projects"><span class="ico">◫</span>프로젝트 관리</button>
+      <button type="button" data-page="tasks"><span class="ico">☷</span>할 일·칸반보드 <span class="num" id="sideTasks">0</span></button>
+      <button type="button" data-page="calendar"><span class="ico">▤</span>일정 캘린더</button>
+    </nav>
+    <div class="nav-label">MD 업무</div>
+    <nav aria-label="MD 업무">
+      <button type="button" data-page="market"><span class="ico">◉</span>시장조사·경쟁분석</button>
+      <button type="button" data-page="products"><span class="ico">▧</span>상품·SKU 관리</button>
+      <button type="button" data-page="promotions"><span class="ico">◇</span>프로모션 관리</button>
+      <button type="button" data-page="contents"><span class="ico">▣</span>콘텐츠 관리</button>
+    </nav>
+    <div class="nav-label">자료와 설정</div>
+    <nav aria-label="자료와 설정">
+      <button type="button" data-page="notes"><span class="ico">▤</span>자료·회의록</button>
+      <button type="button" data-page="settings"><span class="ico">⚙</span>데이터·설정</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="mode"><span class="mode-dot"></span> 개인용 시제품<small>데이터는 이 브라우저에 저장돼요</small></div><div class="sidebar-copy">워크룸 · 한국어 기본 설정</div></div>
+  </aside>
+  <div class="bodyarea">
+    <header class="topbar"><button class="menu-button" id="menuToggle" aria-label="메뉴 열기">☰</button><div class="crumb">나의 업무공간 <span>/</span> <b id="crumb">전체 현황</b></div><div class="top-right"><label class="global-search"><span>⌕</span><input id="globalSearch" placeholder="현재 화면에서 검색" aria-label="현재 화면 검색"></label><span class="today" id="todayLabel"></span><button class="user" title="개인 워크스페이스">M</button></div></header>
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+</div>
+<div class="overlay" id="overlay" hidden><div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="dialog-head"><div><span class="eyebrow">WORKSPACE</span><h2 id="modalTitle">새 항목</h2></div><button class="icon-btn" id="closeModal" type="button" aria-label="닫기">✕</button></div><form id="entryForm"><div id="modalFields"></div><div class="dialog-actions"><button type="button" class="button light" id="cancelModal">취소</button><button type="submit" class="button primary">저장하기</button></div></form></div></div>
+<div id="toast" aria-live="polite" class="toast" hidden></div>
+<script src="./workspace.js"></script>
+</body>
+</html>
