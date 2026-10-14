@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "헤드웨어 시장조사 대시보드",
+    "version": "1.0.0",
+    "reportDate": "2026-10-14",
+    "researchFrom": "2026-07-14",
+    "researchTo": "2026-10-14",
+    "lastDataRefresh": null,
+    "automation": "not_configured",
+    "scope": "국내 패션잡화 · 모자·방한 헤드웨어 · 공개자료",
+    "notice": "초기 데이터는 서로 다른 시점에 확인한 사례 기록입니다. 실시간 가격·거래량이나 시장 평균을 의미하지 않습니다."
+  },
+  "platforms": [
+    "무신사",
+    "W컨셉",
+    "29CM",
+    "크림",
+    "네이버"
+  ],
+  "products": [
+    {
+      "id": "musinsa-4401373",
+      "platform": "무신사",
+      "name": "판다 패딩 바라클라바",
+      "brand": "올인컴플리트",
+      "category": "바라클라바",
+      "material": "패딩",
+      "price": 49500,
+      "originalPrice": 55000,
+      "discountPct": 10,
+      "coupon": "첫 구매 쿠폰은 별도 조건 확인",
+      "image": "https://d2gfz7wkiigkmv.cloudfront.net/pickin/2/1/2/1rKkpLaMRxm35PmqJgxSTQ",
+      "imageProvenance": "브랜드 상품 참고 이미지 (위시버킷)",
+      "url": "https://www.musinsa.com/products/4401373",
+      "source": "무신사 상품 페이지",
+      "sourceDate": "2026-09-10",
+      "observedAt": null,
+      "status": "과거 관찰",
+      "confidence": "medium",
+      "rating": 4.8,
+      "reviews": 105,
+      "rank": "여성 바라클라바 카테고리 3위(2026-09-10)",
+      "notes": "같은 기간 동일 채널 기준 비교가 아니며 현재가 확인 필요",
+      "channel": "패션 셀렉트"
+    },
+    {
+      "id": "musinsa-7309656",
+      "platform": "무신사",
+      "name": "퍼 트루퍼 햇 (베이지)",
+      "brand": "AEAE",
+      "category": "트루퍼",
+      "material": "퍼·코듀로이",
+      "price": 76100,
+      "originalPrice": 89000,
+      "discountPct": 14,
+      "coupon": "조건별 추가 할인 미반영",
+      "image": "https://image.msscdn.net/thumbnails/images/prd_img/20260911/7309656/detail_7309656_17895425632569_big.jpg?w=1200",
+      "imageProvenance": "무신사 공식 제품 이미지",
+      "url": "https://www.musinsa.com/products/7309656",
+      "source": "무신사 상품 페이지",
+      "sourceDate": "2026-09-25",
+      "observedAt": null,
+      "status": "과거 관찰",
+      "confidence": "medium",
+      "rating": null,
+      "reviews": null,
+      "rank": "트루퍼 3위 기록(2026-09-25)",
+      "notes": "퍼·코듀로이 소재 차별화 사례",
+      "channel": "스트리트"
+    },
+    {
+      "id": "musinsa-4535065",
+      "platform": "무신사",
+      "name": "퍼패딩 바라클라바 (블랙)",
+      "brand": "더그린랩",
+      "category": "바라클라바",
+      "material": "퍼·패딩",
+      "price": 27350,
+      "originalPrice": 49000,
+      "discountPct": 44,
+      "coupon": "기간 한정 타임특가 기록",
+      "image": "https://image.msscdn.net/thumbnails/images/goods_img/20241018/4535065/4535065_17292374108551_big.jpg",
+      "imageProvenance": "무신사 글로벌 제품 이미지",
+      "url": "https://www.musinsa.com/products/4535065",
+      "source": "무신사 상품 페이지",
+      "sourceDate": null,
+      "observedAt": null,
+      "status": "기간 한정 / 과거",
+      "confidence": "medium",
+      "rating": 4.8,
+      "reviews": 242,
+      "rank": "여성 바라클라바 3위(8월 4주차)",
+      "notes": "타임특가 가격: 상시판매가와 비교 금지",
+      "channel": "기능·방한"
+    },
+    {
+      "id": "musinsa-5714017",
+      "platform": "무신사",
+      "name": "플리스 햇 카키",
+      "brand": "아웃도어 프로덕츠",
+      "category": "트루퍼",
+      "material": "플리스",
+      "price": 29180,
+      "originalPrice": 42900,
+      "discountPct": 32,
+      "coupon": "추가 쿠폰 미반영",
+      "image": null,
+      "imageProvenance": null,
+      "url": "https://www.musinsa.com/products/5714017",
+      "source": "무신사 상품 페이지",
+      "sourceDate": "2026-09-12",
+      "observedAt": null,
+      "status": "과거 관찰",
+      "confidence": "medium",
+      "rating": 4.9,
+      "reviews": 11,
+      "rank": "여성 트루퍼 3위(2026-09-12)",
+      "notes": "플리스 소재 제품 공급·랭킹 사례",
+      "channel": "기능·방한"
+    },
+    {
+      "id": "29cm-865171",
+      "platform": "29CM",
+      "name": "로고 트루퍼 햇 (3가지 색상)",
+      "brand": "슬리피슬립",
+      "category": "트루퍼",
+      "material": "충전재·기능성",
+      "price": 52200,
+      "originalPrice": 58000,
+      "discountPct": 10,
+      "coupon": "플랫폼 쿠폰 미확인",
+      "image": null,
+      "imageProvenance": null,
+      "url": "https://product.29cm.co.kr/catalog/865171",
+      "source": "29CM 과거 상품 페이지",
+      "sourceDate": null,
+      "observedAt": null,
+      "status": "오래된 기록",
+      "confidence": "low",
+      "rating": null,
+      "reviews": 754,
+      "rank": null,
+      "notes": "상품 상세의 리뷰 수·표시가 기록. 2026년 7~10월 값임을 보장하지 않음",
+      "channel": "감도·디자인"
+    },
+    {
+      "id": "wconcept-606417",
+      "platform": "W컨셉",
+      "name": "울 니트 오픈 바라클라바 (베이지)",
+      "brand": "유니버셜 케미스트리",
+      "category": "바라클라바",
+      "material": "울·니트",
+      "price": 48203,
+      "originalPrice": null,
+      "discountPct": null,
+      "coupon": "공식 몰 현재가 미검증",
+      "image": null,
+      "imageProvenance": null,
+      "url": "https://www.wishbucket.io/items/606417",
+      "source": "W컨셉 관련 제3자 가격비교 기록",
+      "sourceDate": null,
+      "observedAt": null,
+      "status": "외부 과거기록",
+      "confidence": "low",
+      "rating": null,
+      "reviews": null,
+      "rank": null,
+      "notes": "위시버킷 기록. W컨셉 공식 가격 확정 불가",
+      "channel": "감도·디자인"
+    },
+    {
+      "id": "kream-703471",
+      "platform": "크림",
+      "name": "에이알씨 바라클라바 (화이트)",
+      "brand": "에이알씨(ARC)",
+      "category": "바라클라바",
+      "material": "기능성·경량",
+      "price": 51000,
+      "originalPrice": null,
+      "discountPct": null,
+      "coupon": "5% 적립; 판매가 할인과 별개",
+      "image": null,
+      "imageProvenance": null,
+      "url": "https://kream.co.kr/products/703471",
+      "source": "크림 상품 페이지",
+      "sourceDate": null,
+      "observedAt": null,
+      "status": "재검증 필요",
+      "confidence": "medium",
+      "rating": null,
+      "reviews": 0,
+      "rank": null,
+      "notes": "브랜드배송; 5만원 이상 무료배송 조건 표기. 적립은 가격 인하가 아님",
+      "channel": "스포츠"
+    }
+  ],
+  "history": [],
+  "trends": [
+    {
+      "id": "tr1",
+      "name": "패딩·퍼 바라클라바",
+      "type": "유통 근거",
+      "strength": 4,
+      "basis": "국내 일부 상품 및 카테고리 3위 기록",
+      "description": "방한 기능과 볼륨감 있는 디자인. 소재·컬러·핏으로 차별화 가능",
+      "status": "관찰",
+      "image": "https://image.msscdn.net/thumbnails/images/goods_img/20241018/4535065/4535065_17292374108551_big.jpg",
+      "url": "https://www.musinsa.com/products/4535065"
+    },
+    {
+      "id": "tr2",
+      "name": "퍼 트루퍼 / 이어플랩",
+      "type": "유통 근거",
+      "strength": 4,
+      "basis": "무신사 트루퍼 상위 노출 사례",
+      "description": "코듀로이·플리스·퍼 소재 교차 적용과 귀덮개 변형",
+      "status": "관찰",
+      "image": "https://image.msscdn.net/thumbnails/images/prd_img/20260911/7309656/detail_7309656_17895425632569_big.jpg?w=1200",
+      "url": "https://www.musinsa.com/products/7309656"
+    },
+    {
+      "id": "tr3",
+      "name": "필박스·구조적 햇",
+      "type": "해외 패션 신호",
+      "strength": 3,
+      "basis": "2026 가을·겨울 런웨이 에디토리얼 참고; 국내 거래액 미확보",
+      "description": "레트로한 형태의 재해석, 소량 테스트 권장",
+      "status": "가설",
+      "image": null,
+      "url": "https://www.vogue.com/article/fall-2026-accessory-trends"
+    },
+    {
+      "id": "tr4",
+      "name": "니트 후드 · 헤어리 텍스처",
+      "type": "상품 사례",
+      "strength": 3,
+      "basis": "니트 후드형 상품 공급 확인, 성장률 미확보",
+      "description": "스트라이프, 마감 디테일, 두 가지 방식으로 착용",
+      "status": "검증 필요",
+      "image": null,
+      "url": "https://product.29cm.co.kr/catalog/865171"
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "다용도 패딩 바라클라바",
+      "score": 4.5,
+      "category": "바라클라바",
+      "tier": "1순위",
+      "rationale": "국내 유통·랭킹 기록 존재, 상품군 확장 여지",
+      "action": "얼굴 둘레 조절 / 3가지 색상 테스트",
+      "kind": "MD 전략 가설"
+    },
+    {
+      "name": "퍼 트리밍 트루퍼",
+      "score": 4.3,
+      "category": "트루퍼",
+      "tier": "2순위",
+      "rationale": "퍼·코듀로이 등 차별화된 소재 사례",
+      "action": "귀덮개 두 가지 착용법 / 소재 비교 테스트",
+      "kind": "MD 전략 가설"
+    },
+    {
+      "name": "플리스 이어플랩",
+      "score": 4.0,
+      "category": "트루퍼",
+      "tier": "3순위",
+      "rationale": "실용적인 보온 아이템의 일부 랭킹 기록",
+      "action": "생활방수 / 보온 기능 설명 강화",
+      "kind": "MD 전략 가설"
+    },
+    {
+      "name": "헤어리 니트 후드",
+      "score": 3.8,
+      "category": "니트 후드",
+      "tier": "4순위",
+      "rationale": "SNS 이미지 표현력과 소재감 개발 가능",
+      "action": "착용감 고객 리뷰 우선 수집",
+      "kind": "MD 전략 가설"
+    },
+    {
+      "name": "미니멀 필박스 햇",
+      "score": 3.2,
+      "category": "기타",
+      "tier": "5순위",
+      "rationale": "해외 런웨이 신호, 국내 수요 불확실",
+      "action": "소량 기획전 반응 테스트",
+      "kind": "MD 전략 가설"
+    }
+  ],
+  "sources": [
+    {
+      "title": "네이버 쇼핑 검색 API 공식 문서",
+      "category": "수집 방법",
+      "url": "https://developers.naver.com/docs/serviceapi/search/shopping/shopping.md",
+      "period": "현재 연동 서비스 문서"
+    },
+    {
+      "title": "네이버 쇼핑인사이트 공식 문서",
+      "category": "수집 방법",
+      "url": "https://developers.naver.com/docs/serviceapi/datalab/shopping/shopping.md",
+      "period": "현재 연동 서비스 문서"
+    },
+    {
+      "title": "무신사 – 판다 패딩 바라클라바",
+      "category": "상품",
+      "url": "https://www.musinsa.com/products/4401373",
+      "period": "2026.09 랭킹 기록"
+    },
+    {
+      "title": "무신사 – AEAE 퍼 트루퍼",
+      "category": "상품",
+      "url": "https://www.musinsa.com/products/7309656",
+      "period": "2026.09 랭킹 기록"
+    },
+    {
+      "title": "무신사 – 더그린랩 퍼패딩 바라클라바",
+      "category": "상품",
+      "url": "https://www.musinsa.com/products/4535065",
+      "period": "2026.08 랭킹 기록"
+    },
+    {
+      "title": "29CM – 슬리피슬립 트루퍼",
+      "category": "상품",
+      "url": "https://product.29cm.co.kr/catalog/865171",
+      "period": "오래된 기록"
+    },
+    {
+      "title": "W컨셉 외부 가격비교 기록",
+      "category": "제3자",
+      "url": "https://www.wishbucket.io/items/606417",
+      "period": "기록일 미확인"
+    },
+    {
+      "title": "크림 – ARC 바라클라바",
+      "category": "상품",
+      "url": "https://kream.co.kr/products/703471",
+      "period": "현재가 재검증 필요"
+    },
+    {
+      "title": "보그 – 2026 가을 액세서리 트렌드",
+      "category": "에디토리얼",
+      "url": "https://www.vogue.com/article/fall-2026-accessory-trends",
+      "period": "2026 가을·겨울"
+    }
+  ],
+  "collectors": [
+    {
+      "platform": "무신사",
+      "method": "승인된 제공 데이터 / 공식 제휴 피드",
+      "enabled": false,
+      "lastSuccess": null,
+      "detail": "공식 피드가 연결되기 전까지 이전 관찰 기록만 표시"
+    },
+    {
+      "platform": "W컨셉",
+      "method": "승인된 제공 데이터 / 공식 제휴 피드",
+      "enabled": false,
+      "lastSuccess": null,
+      "detail": "현재 판매가를 외부 기록으로 대체하지 않음"
+    },
+    {
+      "platform": "29CM",
+      "method": "승인된 제공 데이터 / 공식 제휴 피드",
+      "enabled": false,
+      "lastSuccess": null,
+      "detail": "가격·쿠폰 조건 재검증 필요"
+    },
+    {
+      "platform": "크림",
+      "method": "승인된 제공 데이터 / 공식 제휴 피드",
+      "enabled": false,
+      "lastSuccess": null,
+      "detail": "시세·판매가·적립가 구분 필요"
+    },
+    {
+      "platform": "네이버",
+      "method": "네이버 공식 쇼핑 검색 정보연동",
+      "enabled": false,
+      "lastSuccess": null,
+      "detail": "네이버 정보연동 인증정보 연결 시 매일 자동갱신 가능"
+    }
+  ]
+}
