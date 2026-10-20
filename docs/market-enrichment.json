@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-20",
+  "assets": {
+    "musinsa-5714017": {
+      "file": "./market-image-musinsa-5714017.jpg",
+      "sourceUrl": "https://www.musinsa.com/products/5714017",
+      "imageUrl": "https://image.msscdn.net/thumbnails/images/prd_img/20251111/5714017/detail_5714017_17628409778475_big.jpg?w=1200",
+      "match": "동일 상품번호 5714017 · 카키",
+      "checkedAt": "2026-10-20",
+      "method": "사용자 요청에 따라 공개 상품 페이지의 표시 이미지 확인·저장",
+      "rights": "저작권은 원권리자에게 있음. 독립적인 재배포 라이선스 취득을 의미하지 않음"
+    },
+    "29cm-865171": {
+      "file": "./market-image-29cm-865171.webp",
+      "sourceUrl": "https://www.29cm.co.kr/products/865171",
+      "imageUrl": "https://img.29cm.co.kr/next-product/2020/11/04/e7ea5441bd2b49589fa26697fdc55a7e_20201104164233.jpg?width=700&format=webp",
+      "match": "동일 상품번호 865171 · 3컬러 상품 대표 이미지",
+      "checkedAt": "2026-10-20",
+      "method": "사용자 요청에 따라 공개 상품 페이지의 표시 이미지 확인·저장",
+      "rights": "저작권은 원권리자에게 있음. 독립적인 재배포 라이선스 취득을 의미하지 않음"
+    },
+    "wconcept-606417": {
+      "file": "./market-image-wconcept-606417.jpg",
+      "sourceUrl": "https://uv-cs.com/product/wool-knit-beige-open-balaclava/1254/",
+      "imageUrl": "https://uv-cs.com/web/product/big/202210/cf9b4d62b055a58d9643ec6d81ea4e10.jpg",
+      "match": "브랜드 공식몰 · 동일 모델명 Wool Knit Beige Open Balaclava / BEIGE · W컨셉 원문과 직접 상품번호 연결 미확인",
+      "checkedAt": "2026-10-20",
+      "method": "사용자 요청에 따라 공개 상품 페이지의 표시 이미지 확인·저장",
+      "rights": "저작권은 원권리자에게 있음. 독립적인 재배포 라이선스 취득을 의미하지 않음"
+    },
+    "kream-703471": {
+      "file": "./market-image-kream-703471.png",
+      "sourceUrl": "https://kream.co.kr/products/703471",
+      "imageUrl": "https://kream-phinf.pstatic.net/MjAyNTEyMDFfMTM5/MDAxNzY0NTY4NjUwNjE5.-Wmblz_Ij5kGXE603nmhTv7zeNoAFeviJxMAgwOER2Ig.rgcfNhddebpflGqWPp684H-QxBDY7ovcFvTu5uMshr0g.PNG/p_8c82642da51345359ca6c35e488e3e7e.png",
+      "match": "동일 상품번호 703471 · 화이트",
+      "checkedAt": "2026-10-20",
+      "method": "사용자 요청에 따라 공개 상품 페이지의 표시 이미지 확인·저장",
+      "rights": "저작권은 원권리자에게 있음. 독립적인 재배포 라이선스 취득을 의미하지 않음"
+    }
+  },
+  "observations": [
+    {
+      "productId": "musinsa-5714017",
+      "platform": "무신사",
+      "observedAt": "2026-10-20",
+      "price": 29180,
+      "originalPrice": 42900,
+      "reviews": 12,
+      "rating": 4.9,
+      "option": "카키 / 상품페이지 기본 표시",
+      "priceBasis": "쿠폰 적용 전 표시가",
+      "coupon": "첫 구매 20% 쿠폰 별도 조건",
+      "sourceUrl": "https://www.musinsa.com/products/5714017",
+      "sourceName": "무신사 공개 상품 페이지",
+      "verification": "공개 페이지 수동 확인"
+    },
+    {
+      "productId": "29cm-865171",
+      "platform": "29CM",
+      "observedAt": "2026-10-20",
+      "price": 52200,
+      "originalPrice": 58000,
+      "reviews": 756,
+      "option": "3컬러 상품 / 옵션 미선택",
+      "priceBasis": "쿠폰 적용 전 표시가",
+      "coupon": "첫 구매·카드 혜택 별도 조건",
+      "sourceUrl": "https://www.29cm.co.kr/products/865171",
+      "sourceName": "29CM 공개 상품 페이지",
+      "verification": "공개 페이지 수동 확인"
+    },
+    {
+      "productId": "kream-703471",
+      "platform": "크림",
+      "observedAt": "2026-10-20",
+      "price": 51000,
+      "originalPrice": null,
+      "option": "화이트 / ONE SIZE",
+      "priceBasis": "상품페이지 표시가",
+      "coupon": "자료 미확보",
+      "sourceUrl": "https://kream.co.kr/products/703471",
+      "sourceName": "크림 공개 상품 페이지",
+      "verification": "공개 페이지 수동 확인"
+    }
+  ],
+  "checks": [
+    {
+      "productId": "wconcept-606417",
+      "checkedAt": "2026-10-20",
+      "status": "원래 위시버킷 출처 DNS 연결 실패 · 브랜드 공식몰 이미지만 보완",
+      "replacementImageOnly": true
+    }
+  ],
+  "references": [
+    {
+      "name": "EDITED Retail Intelligence",
+      "url": "https://edited.com/products/retail-intelligence-platform/",
+      "applied": "상품 구성·가격·프로모션을 분리해 분석"
+    },
+    {
+      "name": "Similarweb Retail Intelligence Metrics",
+      "url": "https://support.similarweb.com/hc/en-us/articles/33639235837981-Retail-Intelligence-Metrics",
+      "applied": "측정 범위·지표 정의·데이터 최신성 표시"
+    },
+    {
+      "name": "WGSN Fashion Buying",
+      "url": "https://www.wgsn.com/en/products/fashion-buying",
+      "applied": "트렌드 근거와 바잉 판단·검증할 가설 구분"
+    }
+  ]
+}
